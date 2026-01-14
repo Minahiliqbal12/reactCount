@@ -16,7 +16,7 @@ const Card = () => {
 
   return (
     <div className="h-screen flex items-center justify-center bg-gray-100">
-      <div className="bg-pink-200 p-8 rounded-xl shadow-lg w-90 text-center">
+      <div className="bg-pink-200 p-8 rounded-xl shadow-lg w-100 text-center">
         <h1 className="text-4xl font-bold text-blue-600 mb-7">{num}</h1>
 
         <div className="flex justify-between ">
