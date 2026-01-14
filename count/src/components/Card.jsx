@@ -16,7 +16,7 @@ const Card = () => {
 
   return (
     <div className="h-screen  flex items-center justify-center bg-gray-100">
-      <div className="bg-pink-200 h-40 p-8 rounded-2xl shadow-xl w-80 text-center">
+      <div className="bg-pink-200 h-30 p-8 rounded-2xl shadow-xl w-95 text-center">
         <h1 className="text-5xl font-bold text-blue-600 mb-8">{num}</h1>
 
         <div className="flex justify-center gap-3 ">
@@ -35,7 +35,7 @@ const Card = () => {
           </button>
           <button
             onClick={restart}
-            className="px-4 py-2  mt-4 w-full bg-amber-500 text-white rounded-lg hover:bg-amber-600"
+            className="px-4 py-2   bg-amber-500 text-white rounded-lg hover:bg-amber-600"
           >
             Restart
           </button>
