@@ -22,20 +22,20 @@ const Card = () => {
         <div className="flex justify-center gap-3 ">
           <button
             onClick={decreased}
-            className="px-4 py-2 bg-amber-500 text-white rounded-lg hover:bg-amber-600"
+            className="px-7 py-2 bg-amber-500 text-white rounded-lg hover:bg-amber-600"
           >
             Decrease
           </button>
 
           <button
             onClick={increased}
-            className="px-4 py-2 bg-amber-500 text-white rounded-lg hover:bg-amber-600"
+            className="px-7 py-2 bg-amber-500 text-white rounded-lg hover:bg-amber-600"
           >
             Increase
           </button>
           <button
             onClick={restart}
-            className="px-4 py-2   bg-amber-500 text-white rounded-lg hover:bg-amber-600"
+            className="px-7 py-2   bg-amber-500 text-white rounded-lg hover:bg-amber-600"
           >
             Restart
           </button>
