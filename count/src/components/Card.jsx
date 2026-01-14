@@ -16,26 +16,26 @@ const Card = () => {
 
   return (
     <div className="h-screen  flex items-center justify-center bg-gray-100">
-      <div className="bg-pink-200 h-40 p-6 rounded-xl shadow-lg w-95 text-center">
-        <h1 className="text-4xl font-bold text-blue-600 mb-7">{num}</h1>
+      <div className="bg-pink-200 h-40 p-8 rounded-2xl shadow-xl w-80 text-center">
+        <h1 className="text-5xl font-bold text-blue-600 mb-8">{num}</h1>
 
-        <div className="flex justify-between ">
+        <div className="flex justify-center gap-3 ">
           <button
             onClick={decreased}
-            className="px-2 py-2 bg-amber-500 text-white rounded-lg hover:bg-amber-600"
+            className="px-4 py-2 bg-amber-500 text-white rounded-lg hover:bg-amber-600"
           >
             Decrease
           </button>
 
           <button
             onClick={increased}
-            className="px-2 py-2 bg-amber-500 text-white rounded-lg hover:bg-amber-600"
+            className="px-4 py-2 bg-amber-500 text-white rounded-lg hover:bg-amber-600"
           >
             Increase
           </button>
           <button
             onClick={restart}
-            className="px-4 py-2 bg-amber-500 text-white rounded-lg hover:bg-amber-600"
+            className="px-4 py-2  mt-4 w-full bg-amber-500 text-white rounded-lg hover:bg-amber-600"
           >
             Restart
           </button>
